@@ -10,9 +10,9 @@
       <a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».
     </p>!-->
     <header class="page-header">
-      <a class="main-header-logo">
+      <a class="main-header-logo" href="index.html">
         <img
-          src="imgs/logo_sedona.png"
+          src="images/logo_sedona.svg"
           width="139"
           height="70"
           alt="Логотип сайта городка Седона"
@@ -21,7 +21,7 @@
       <nav class="navigation">
         <ul class="navigation-list nav">
           <li class="navigation-item nav-item">
-            <a class="navigation-link nav-link" href="mainpage.html">Главная</a>
+            <a class="navigation-link nav-link" href="index.html">Главная</a>
           </li>
           <li class="navigation-item nav-item">
             <a class="navigation-link nav-link" href="aboutsedona.html"
@@ -38,13 +38,22 @@
 
       <ul class="user-menu">
         <li class="user-item">
-          <a class="user-link" href="#">Поиск</a>
+          <a class="user-link" href="#">
+            <img src="images/search.svg" width="18" height="18" alt="Поиск" />
+          </a>
         </li>
         <li class="user-item">
-          <a class="user-link" href="#">Избранное</a>
+          <a class="user-link" href="#">
+            <img
+              src="images/favorite.svg"
+              width="18"
+              height="17"
+              alt="Избранное"
+            />
+          </a>
         </li>
         <li class="user-item">
-          <a class="user-link" href="#">Хочу сюда!</a>
+          <a class="user-link" type="button" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </header>
@@ -53,16 +62,10 @@
       <section class="welcome">
         <div>
           <img
-            src="imgs/welcome.png"
+            src="images/welcome.svg"
             alt="Welcome to the gorgeous Sedona, because The Grand Canyon is sucks!"
             height="411"
             width="458"
-          />
-          <img
-            src="imgs/index-background.jpg"
-            alt="Виды Седоны"
-            height="485"
-            width="1200"
           />
         </div>
       </section>
@@ -85,7 +88,7 @@
             </div>
             <div>
               <img
-                src="imgs/sedona_view_1.jpg"
+                src="images/sedona_view_1.jpg"
                 alt="Вид на городок Седона"
                 height="384"
                 width="800"
@@ -94,10 +97,22 @@
             <ul>
               <li>
                 <h2>Жилье</h2>
+                <img
+                  src="images/icon_house.svg"
+                  alt="Жилье"
+                  height="72"
+                  width="75"
+                />
                 <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
               <li>
                 <h2>Еда</h2>
+                <img
+                  src="images/icon_food.svg"
+                  alt="Еда"
+                  height="72"
+                  width="72"
+                />
                 <p>
                   Всегда заказывайте топовый фирменный бургер, вы не
                   разочаруетесь!
@@ -105,6 +120,12 @@
               </li>
               <li>
                 <h2>Сувениры</h2>
+                <img
+                  src="images/icon_souvenirs.png"
+                  alt="Сувениры"
+                  height="75"
+                  width="64"
+                />
                 <p>
                   Не только китайского, но и настоящего местного производства!
                 </p>
@@ -114,7 +135,7 @@
           <li>
             <div>
               <img
-                src="imgs/devil_bridge_2.jpg"
+                src="images/devil_bridge_2.jpg"
                 alt="Мост Дьявола"
                 height="384"
                 width="800"
@@ -174,15 +195,43 @@
 
     <footer class="page-footer">
       <section class="social">
-        <a class="twitter" href="#">Twitter</a>
-        <a class="facebook" href="#">Facebook</a>
-        <a class="youtube" href="#">YouTube</a>
+        <a class="twitter" href="#">
+          <img
+            src="images/social-twitter.svg"
+            width="18"
+            height="18"
+            alt="Twitter"
+          />
+        </a>
+        <a class="facebook" href="#">
+          <img
+            src="images/social-facebook.svg"
+            width="18"
+            height="18"
+            alt="Facebook"
+          />
+        </a>
+        <a class="youtube" href="#">
+          <img
+            src="images/social-youtube.svg"
+            width="18"
+            height="18"
+            alt="YouTube"
+          />
+        </a>
       </section>
       <section class="phone-number">
         <a class="phone-number" href="#">+7 (812) 812-12-12</a>
       </section>
       <section class="logo-htmlacademy">
-        <a class="logo-htmlacademy" href="#">htmlacademy</a>
+        <a class="logo-htmlacademy" href="#">
+          <img
+            src="images/logo_htmlacademy.svg"
+            width="115"
+            height="34"
+            alt="htmlacademy"
+          />
+        </a>
       </section>
     </footer>
   </body>
